@@ -1,0 +1,218 @@
+body{
+
+	padding: 0;
+	margin: 0;
+}
+
+a{
+
+	text-decoration: none;
+	margin: 0px;
+
+}
+
+#cabecalho{
+
+	border-bottom: 1px solid white;
+	display: flex;
+	height: 200px;
+	background: black;
+}
+
+#logo{
+
+	border-right: 1px solid;
+	border-radius: 20px;
+	width: 200px;
+	padding-right: 50px;
+	padding-top: 20px;
+	color: white;
+}
+
+#logo h1{
+
+	padding-left: 50px;
+	font-size: 2.5em;
+}
+
+#navegacao{
+
+	
+	font-size: 2em;
+	padding-top: 80px;
+	padding-left: 30px;
+}
+
+
+#navegacao a{
+
+	border-left: 1px solid;
+	padding: 85px 60px;
+	padding-bottom: none;
+	margin: -4px;
+	color: white;
+	transition: background;
+	transition-duration: .3s;
+	transition-timing-function: ease-in;
+	
+}
+
+#navegacao a:hover{
+	
+	background: white;
+	color: black;
+}
+
+#apresent-paralax{
+
+	height: 500px;
+	background: #111111;
+	border-bottom: 1px solid;
+	background-image: url(../imagens/jiujitsu-escrito.jpg);
+	background-size: 650px 500px ;
+	background-repeat: no-repeat;
+}
+
+#apresentacao-paralax{
+
+	width: 900px;
+	margin: auto;
+	color: white;
+	font-family: sans-serif;
+	position: relative;
+	top: 150px;
+	left: 350px;
+}
+
+#apresentacao-paralax h3{
+
+	font-size: 3em;
+	margin: 0px;
+
+}
+
+#apresentacao-paralax p{
+
+	font-size: 2em;
+
+}
+
+.underline{
+
+	text-decoration: underline;
+	transition: background-color;
+	transtition: color;
+	transition-duration: .3s;
+	transition-timing-function: ease-in;
+}
+
+.underline:hover{
+
+	color: black;
+	background: white;
+}
+
+#area-professores-apresentacao{
+
+	text-align: center;
+	border: 1px solid;
+	margin: auto;
+	height: 500px;
+}
+
+#area-professores-apresentacao h2{
+
+	font-size: 3em;
+}
+
+#area-professores{
+
+	display: flex;
+
+}
+
+.professor{
+
+	padding-top: 30px;
+	margin: auto;
+	width: 400px;
+	height: 250px;
+
+}
+
+.professor h3{
+
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: 1px solid;
+}
+
+.professor img:hover{
+
+	opacity: 0.6;
+}
+
+#mensalidade{
+
+	background: black;
+	text-align: center;
+	background-image: url(../imagens/jiujitsu-caido.jpg);
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 2000px 1000px;
+	height: 500px;
+	color: white;
+
+}
+
+
+#mensalidade h2{
+
+	margin: 0px;
+	padding: 0px;
+	font-size: 3.5em;
+}
+
+#mensalidade p{
+
+	font-size: 2.5em;
+}
+
+#anuncio-mensa{
+
+	position: relative;
+	top: 150px;
+}
+
+#rodape{
+
+	text-align: center;
+	font-size: 1em;
+	font-family: sans-serif;
+
+}
+
+.alinhar{
+
+	text-align: center;
+	font-size: 2.5em;
+}
+
+#jiu-jitsu{
+
+	display: flex;
+}
+
+#jiu-jitsu h2{
+
+	text-align: center;
+	font-size: 2em;
+}
+
+.container-virtude{
+
+		border: 1px solid;
+		padding: 10px;
+}
